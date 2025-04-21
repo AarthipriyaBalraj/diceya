@@ -1,0 +1,49 @@
+.container{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+.dice1, .dice2{
+    display: inline-block;
+    text-align:center;
+    margin: 20px;
+}
+body{
+    background-color:skyblue;
+}
+h1{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1200;
+    color: navy;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    color: navy;
+    background-color: cornflowerblue;
+}
+p{
+    font-family: "Lobster", sans-serif;
+    font-size: x-large;
+    color: navy;
+}
+#rollButton {
+    display:inline-block;
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    .dice1, .dice2 {
+      display: block;
+      margin: 20px auto; 
+    }
+    #rollButton {
+        display: block;
+        margin: 20px auto;
+    }
+}
